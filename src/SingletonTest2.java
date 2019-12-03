@@ -9,7 +9,7 @@ public class SingletonTest2 {
         SingletonTest singleton2 = SingletonTest.getInstance();
 
 
-        
+
         //Singleton对象只创建一次，但是写两次还是可以的，而且方法都是可以调用的，但是看下面
         singleton.show();
         singleton2.show();
