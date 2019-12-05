@@ -1,0 +1,23 @@
+golang 
+version 1.12+
+官网：https://golang.google.cn/dl/
+文档：菜鸟教程 w3cSchool
+
+工具 goland
+破解：https://blog.csdn.net/u014044812/article/details/87621168
+
+框架 beego
+doc https://beego.me/docs/intro/
+
+常用命令
+创建项目:
+bee api demo -driver=postgres -conn="postgres://asama:pactera76@asama-dev.cgebeejhba6u.ap-northeast-1.rds.amazonaws.com:5432/asama_dev?sslmode=disable"
+
+build run并生成swagger:
+bee run -gendoc=true -downdoc=true
+
+bee run
+
+生成model struct
+asama_account(用户名)：asama_account(密码)@db_host:db_post/db_name?sslmode=disable
+bee api demo -driver=postgres -conn="postgres://asama_account:asama_account@pasona-dev.cgebeejhba6u.ap-northeast-1.rds.amazonaws.com:5432/pasona?sslmode=disable"
